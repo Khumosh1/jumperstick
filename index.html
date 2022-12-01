@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html onclick="jump()">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jumper-stick</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="hero is-success is-fullheight">
+  <center> <audio id="autoplay" src="alamlar.mp3"></audio> </center>
+    <p>Score: <span id="scoreSpan"></span></p>
+    <div class="game">
+      <div id="character"></div>
+      <div id="block"></div>
+    </div>
+  </section>
+</body>
+<script src="js/jump.js"></script>
+</html>
